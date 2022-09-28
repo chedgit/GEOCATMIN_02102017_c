@@ -1,0 +1,811 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B2AD9378-63BA-4333-9934-496E447F8A3A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>GEOCATMIN</RootNamespace>
+    <AssemblyName>GEOCATMIN</AssemblyName>
+    <MyType>Windows</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>GEOCATMIN.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>GEOCATMIN.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.C1Preview.2, Version=2.0.20063.41006, Culture=neutral, PublicKeyToken=594a0605db190bb9" />
+    <Reference Include="C1.C1PrintDocument.Classic.2, Version=2.0.20063.334, Culture=neutral, PublicKeyToken=1a6f4158ebe6d3b8" />
+    <Reference Include="C1.Win.C1Preview.2, Version=2.0.20063.41006, Culture=neutral, PublicKeyToken=41780e2fc605e636, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1PrintPreview.Classic.2, Version=2.0.20063.334, Culture=neutral, PublicKeyToken=3af768410ba0a64f, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1Report.2, Version=2.5.20063.223, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1TrueDBGrid.2, Version=2.0.20063.60825, Culture=neutral, PublicKeyToken=75ae3fb0e2b1e0da, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="ESRI.ArcGIS.ADF, Version=9.2.0.1324, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.ArcMapUI, Version=9.2.0.1324, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Carto, Version=9.3.0.1770, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.CartoUI, Version=9.2.0.1324, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\ESRI.ArcGIS.CartoUI\9.2.0.1324__8fc3cc631e44ad86\ESRI.ArcGIS.CartoUI.dll</HintPath>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Catalog, Version=9.3.0.1770, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL" />
+    <Reference Include="ESRI.ArcGIS.Controls, Version=9.3.0.1770, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataSourcesFile, Version=9.3.0.1770, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL" />
+    <Reference Include="ESRI.ArcGIS.DataSourcesGDB, Version=9.3.0.1770, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL" />
+    <Reference Include="ESRI.ArcGIS.DataSourcesOleDB, Version=9.3.0.1770, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataSourcesRaster, Version=9.2.0.1324, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\ESRI.ArcGIS.DataSourcesRaster\9.2.0.1324__8fc3cc631e44ad86\ESRI.ArcGIS.DataSourcesRaster.dll</HintPath>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Display, Version=9.3.0.1770, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Editor, Version=9.3.0.1770, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL" />
+    <Reference Include="ESRI.ArcGIS.Framework, Version=9.2.0.1324, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geodatabase, Version=9.3.0.1770, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL" />
+    <Reference Include="ESRI.ArcGIS.GeoDatabaseUI, Version=9.2.0.1324, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\ESRI.ArcGIS.GeoDatabaseUI\9.2.0.1324__8fc3cc631e44ad86\ESRI.ArcGIS.GeoDatabaseUI.dll</HintPath>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geometry, Version=9.3.0.1770, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL" />
+    <Reference Include="ESRI.ArcGIS.GISClient, Version=9.3.0.1770, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL" />
+    <Reference Include="ESRI.ArcGIS.Output, Version=9.3.0.1770, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL" />
+    <Reference Include="ESRI.ArcGIS.System, Version=9.2.0.1324, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.SystemUI, Version=9.2.0.1324, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=2.102.2.20, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86" />
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSEnv\PublicAssemblies\stdole.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Botones\btnDemarcaZonaUrbana.vb" />
+    <Compile Include="Botones\btnNuevoFA.vb" />
+    <Compile Include="Botones\btn_BDCoorSupAreaRestringida.vb" />
+    <Compile Include="Botones\btn_Borrar_Temas.vb" />
+    <Compile Include="Botones\btn_CalculoAreaDisponible.vb" />
+    <Compile Include="Botones\btn_Cambiar_Usuario.vb" />
+    <Compile Include="Botones\btn_demarcacionmultiple.vb" />
+    <Compile Include="Botones\btn_Dibujar_Poligono.vb" />
+    <Compile Include="Botones\btn_FA_AreaReserva.vb" />
+    <Compile Include="Botones\btn_FA_AreaSuperpuesta.vb" />
+    <Compile Include="Botones\btn_FA_CooSupAreaRestringida.vb" />
+    <Compile Include="Botones\btn_FA_Valida_Resultado.vb" />
+    <Compile Include="Botones\btn_FA_ZonaUrbana.vb" />
+    <Compile Include="Botones\btn_GeneraPlanoCuadricula.vb" />
+    <Compile Include="Botones\Btn_GenerarMallas.vb" />
+    <Compile Include="Botones\btn_GenerarPlano.vb" />
+    <Compile Include="Botones\Btn_Generar_Resolucion.vb" />
+    <Compile Include="Botones\Btn_Genera_Situacion_dm.vb" />
+    <Compile Include="Botones\btn_GraficaExcel.vb" />
+    <Compile Include="Botones\btn_Limite_Regional.vb" />
+    <Compile Include="Botones\btn_Observaciones_Carta.vb" />
+    <Compile Include="Botones\btn_RotularTextos.vb" />
+    <Compile Include="Botones\btn_SimularDM.vb" />
+    <Compile Include="Botones\btn_VerAnteriores.vb" />
+    <Compile Include="Botones\btn_VerAnt_Po_Co.vb" />
+    <Compile Include="Botones\btn_VerAp_Po.vb" />
+    <Compile Include="Botones\btn_VerColindantes.vb" />
+    <Compile Include="Botones\btn_VerEvaluado.vb" />
+    <Compile Include="Botones\btn_VerExtinguidos.vb" />
+    <Compile Include="Botones\btn_VerPosteriores.vb" />
+    <Compile Include="Botones\btn_VerSimultaneos.vb" />
+    <Compile Include="Botones\btn_VerTodos.vb" />
+    <Compile Include="Botones\btn_Plano_Area_Superpuesta.vb" />
+    <Compile Include="Botones\btn_Ver_Antecesor_RD.vb" />
+    <Compile Include="Botones\btn_Ver_Capas.vb" />
+    <Compile Include="Botones\btn_Ver_Google.vb" />
+    <Compile Include="Botones\btn_Zoom_to_Layer.vb" />
+    <Compile Include="Botones\Generar_Layer_Aster.vb" />
+    <Compile Include="Botones\tool_Plano_Carta.vb" />
+    <Compile Include="Botones\Tool_Porcentaje_Region.vb" />
+    <Compile Include="Botones\btnGuardaFA.vb" />
+    <Compile Include="Botones\Tool_Rotula_polygonos.vb" />
+    <Compile Include="Clases\cls_Barra.vb" />
+    <Compile Include="Clases\cls_BDEvaluacion.vb" />
+    <Compile Include="Clases\cls_Conexion_Oracle.vb">
+    </Compile>
+    <Compile Include="Clases\cls_Demis.vb" />
+    <Compile Include="Clases\cls_Dominio.vb" />
+    <Compile Include="Clases\Cls_evaluacion.vb" />
+    <Compile Include="Clases\cls_Google_Earth.vb" />
+    <Compile Include="Clases\cls_Imagenes.vb" />
+    <Compile Include="Clases\Cls_planos.vb" />
+    <Compile Include="Clases\cls_Prueba.vb" />
+    <Compile Include="Clases\cls_Usuario.vb" />
+    <Compile Include="Clases\Cls_utilidades.vb" />
+    <Compile Include="Clases\cls_wurbina.vb" />
+    <Compile Include="Cover_to_Geodatabase\frm_Cover_to_GDB.Designer.vb">
+      <DependentUpon>frm_Cover_to_GDB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cover_to_Geodatabase\frm_Cover_to_GDB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cover_to_Geodatabase\tool_Cover_to_GDB.vb" />
+    <Compile Include="Inicio\GEOCATMIN_IniLogin_1.Designer.vb">
+      <DependentUpon>GEOCATMIN_IniLogin_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio\GEOCATMIN_IniLogin_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Form_DatosProcesados.Designer.vb">
+      <DependentUpon>Form_DatosProcesados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Form_DatosProcesados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\frmCooSupAreaRestringida_BD.Designer.vb">
+      <DependentUpon>frmCooSupAreaRestringida_BD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\frmCooSupAreaRestringida_BD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Frm_Agregarcapas.designer.vb">
+      <DependentUpon>Frm_Agregarcapas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Frm_Agregarcapas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Frm_AreasSuperpuestas.designer.vb">
+      <DependentUpon>Frm_AreasSuperpuestas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Frm_AreasSuperpuestas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\frm_Area_Reserva_BD.designer.vb">
+      <DependentUpon>frm_Area_Reserva_BD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\frm_Area_Reserva_BD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\frm_CartaIGN_Segun_Codigo.designer.vb">
+      <DependentUpon>frm_CartaIGN_Segun_Codigo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\frm_CartaIGN_Segun_Codigo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Frm_datos_Evaluacion.designer.vb">
+      <DependentUpon>Frm_datos_Evaluacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Frm_datos_Evaluacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Frm_Demarca_Urbana.Designer.vb">
+      <DependentUpon>Frm_Demarca_Urbana.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Frm_Demarca_Urbana.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Frm_DMxAreaRestringida.designer.vb">
+      <DependentUpon>Frm_DMxAreaRestringida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Frm_DMxAreaRestringida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Frm_Eval_segun_codigo.designer.vb">
+      <DependentUpon>Frm_Eval_segun_codigo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Frm_Eval_segun_codigo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\Frm_GraficaPoligono.designer.vb">
+      <DependentUpon>Frm_GraficaPoligono.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\Frm_GraficaPoligono.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\frm_Grafica_Excel.designer.vb">
+      <DependentUpon>frm_Grafica_Excel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\frm_Grafica_Excel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\frm_Grafica_Ubigeo.Designer.vb">
+      <DependentUpon>frm_Grafica_Ubigeo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\frm_Grafica_Ubigeo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Frm_observa_CartaIGN.designer.vb">
+      <DependentUpon>Frm_observa_CartaIGN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Frm_observa_CartaIGN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Frm_Resultado_Eval.designer.vb">
+      <DependentUpon>Frm_Resultado_Eval.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Frm_Resultado_Eval.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\frm_SimularPetitorio.designer.vb">
+      <DependentUpon>frm_SimularPetitorio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\frm_SimularPetitorio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\frm_Zona_Urbana_BD.designer.vb">
+      <DependentUpon>frm_Zona_Urbana_BD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\frm_Zona_Urbana_BD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\Frm_formatoplanos.designer.vb">
+      <DependentUpon>Frm_formatoplanos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\Frm_formatoplanos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_Generar_Malla_100.designer.vb">
+      <DependentUpon>frm_Generar_Malla_100.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_Generar_Malla_100.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_Grafica_Area_Reserva.Designer.vb">
+      <DependentUpon>frm_Grafica_Area_Reserva.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_Grafica_Area_Reserva.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_Grafica_Consulta_DM.designer.vb">
+      <DependentUpon>frm_Grafica_Consulta_DM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_Grafica_Consulta_DM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_Grafica_Consulta_XY.designer.vb">
+      <DependentUpon>frm_Grafica_Consulta_XY.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_Grafica_Consulta_XY.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\Frm_listadoescalaplanos.designer.vb">
+      <DependentUpon>Frm_listadoescalaplanos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\Frm_listadoescalaplanos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\Tool1_planoventa.vb" />
+    <Compile Include="Reporte\Base_Reporte.vb" />
+    <Compile Include="Mod_Atencion_Publico\frm_Grafica_DM_Segun_Limite.Designer.vb">
+      <DependentUpon>frm_Grafica_DM_Segun_Limite.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_Grafica_DM_Segun_Limite.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_Grafica_DM_Segun_XY.Designer.vb">
+      <DependentUpon>frm_Grafica_DM_Segun_XY.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_Grafica_DM_Segun_XY.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_Grafica_DM_Varias_Hojas.Designer.vb">
+      <DependentUpon>frm_Grafica_DM_Varias_Hojas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_Grafica_DM_Varias_Hojas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_Grafica_Segun_Codigo.Designer.vb">
+      <DependentUpon>frm_Grafica_Segun_Codigo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_Grafica_Segun_Codigo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_Grafica_Segun_Nombre.Designer.vb">
+      <DependentUpon>frm_Grafica_Segun_Nombre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_Grafica_Segun_Nombre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_Grafica_Ubigeo.Designer.vb">
+      <DependentUpon>frm_Grafica_Ubigeo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_Grafica_Ubigeo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\Tool_Grafica_Consulta_DM.vb" />
+    <Compile Include="Mod_Atencion_Publico\Tool_Grafica_Consulta_XY.vb" />
+    <Compile Include="Reporte\Frm_Reporte.Designer.vb">
+      <DependentUpon>Frm_Reporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte\Frm_Reporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporte\rpt_Reporte_2.Designer.vb">
+      <DependentUpon>rpt_Reporte_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte\rpt_Reporte_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporte\rpt_Reporte_1.Designer.vb">
+      <DependentUpon>rpt_Reporte_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte\rpt_Reporte_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio\GEOCATMIN_IniLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolBar_DM\Barra_General.vb" />
+    <Compile Include="Clases\cls_DM_1.vb" />
+    <Compile Include="Clases\cls_DM_2.vb" />
+    <Compile Include="Modulos\LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolBar_DM\Base_Form_Evaluacion.vb" />
+    <Compile Include="ToolBar_DM\Base_Resultado_Evaluacion.vb" />
+    <Compile Include="ToolBar_DM\Menu1.vb" />
+    <Compile Include="Modulo_Principal.vb" />
+    <Compile Include="Mod_Atencion_Publico\frm_DM_x_Carta_1.Designer.vb">
+      <DependentUpon>frm_DM_x_Carta_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_DM_x_Carta_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_DM_x_Carta_0.Designer.vb">
+      <DependentUpon>frm_DM_x_Carta_0.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mod_Atencion_Publico\frm_DM_x_Carta_0.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reporte\Reporte_1.vb" />
+    <Compile Include="ToolBar_DM\Menu_Base.vb" />
+    <Compile Include="ToolBar_DM\m_Form1.vb" />
+    <Compile Include="ToolBar_DM\tool_CartaDM.vb" />
+    <Compile Include="ToolBar_DM\tool_Generar_Malla.vb" />
+    <Compile Include="ToolBar_DM\tool_Graficar_DM_Varias_Hojas.vb" />
+    <Compile Include="ToolBar_DM\tool_Grafica_Area_Reserva.vb" />
+    <Compile Include="ToolBar_DM\tool_SegunXY.vb" />
+    <Compile Include="ToolBar_DM\tool_Segun_Codigo.vb" />
+    <Compile Include="ToolBar_DM\tool_Segun_Limite.vb" />
+    <Compile Include="ToolBar_DM\tool_Segun_Ubigeo.vb" />
+    <Compile Include="Botones\tool_Plano_Demarca.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ToolBar_DM\Menu1.bmp" />
+    <EmbeddedResource Include="My Project\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Modulos\LoginForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod_Atencion_Publico\frm_DM_x_Carta_0.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_DM_x_Carta_0.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod_Atencion_Publico\frm_DM_x_Carta_1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_DM_x_Carta_1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte\Reporte_1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="componentes\PORTAL_Clases\PORTAL_Clases.vbproj">
+      <Project>{96242FF8-B759-41C6-8725-B35B290D0A5E}</Project>
+      <Name>PORTAL_Clases</Name>
+    </ProjectReference>
+    <ProjectReference Include="componentes\PORTAL_Configuracion\PORTAL_Configuracion.vbproj">
+      <Project>{FD036D2B-6FED-482C-98CA-E2F5A7FC5F91}</Project>
+      <Name>PORTAL_Configuracion</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mod_Atencion_Publico\frm_Grafica_DM_Segun_XY.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_Grafica_DM_Segun_XY.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolBar_DM\tool_CartaDM.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\Grafico_SegunXY.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mod_Atencion_Publico\frm_Grafica_DM_Segun_Limite.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_Grafica_DM_Segun_Limite.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolBar_DM\tool_SegunXY.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mod_Atencion_Publico\frm_Grafica_Segun_Codigo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_Grafica_Segun_Codigo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolBar_DM\tool_Segun_Limite.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mod_Atencion_Publico\frm_Grafica_Ubigeo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_Grafica_Ubigeo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolBar_DM\tool_Segun_Codigo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mod_Atencion_Publico\frm_Grafica_DM_Varias_Hojas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_Grafica_DM_Varias_Hojas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolBar_DM\tool_Segun_Ubigeo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mod_Atencion_Publico\frm_Grafica_Segun_Nombre.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_Grafica_Segun_Nombre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte\rpt_Reporte_1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>rpt_Reporte_1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolBar_DM\tool_Graficar_DM_Varias_Hojas.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mod_Atencion_Publico\Tool_Grafica_Consulta_XY.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mod_Atencion_Publico\Tool_Grafica_Consulta_DM.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mod_Atencion_Publico\Tool_Grafica_Consulta_DM.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Modulos\frm_Grafica_Ubigeo.resx">
+      <DependentUpon>frm_Grafica_Ubigeo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod_Atencion_Publico\Tool_Grafica_Consulta_XY.bmp" />
+    <EmbeddedResource Include="Inicio\GEOCATMIN_IniLogin.resx">
+      <DependentUpon>GEOCATMIN_IniLogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Reporte\rpt_Reporte_2.resx">
+      <DependentUpon>rpt_Reporte_2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Reporte\Base_Reporte.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ToolBar_DM\Base_Resultado_Evaluacion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ToolBar_DM\Base_Form_Evaluacion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btn_CalculoAreaDisponible.bmp" />
+    <EmbeddedResource Include="Botones\btn_GenerarPlano.bmp" />
+    <EmbeddedResource Include="Botones\btn_SimularDM.bmp" />
+    <EmbeddedResource Include="Botones\btn_VerAnt_Po_Co.bmp" />
+    <EmbeddedResource Include="Botones\btn_VerAnteriores.bmp" />
+    <EmbeddedResource Include="Botones\btn_VerAp_Po.bmp" />
+    <EmbeddedResource Include="Botones\btn_VerColindantes.bmp" />
+    <EmbeddedResource Include="Botones\btn_VerEvaluado.bmp" />
+    <EmbeddedResource Include="Botones\btn_VerExtinguidos.bmp" />
+    <EmbeddedResource Include="Botones\btn_VerPosteriores.bmp" />
+    <EmbeddedResource Include="Botones\btn_VerSimultaneos.bmp" />
+    <EmbeddedResource Include="Botones\btn_VerTodos.bmp" />
+    <EmbeddedResource Include="Botones\btn_Plano_Area_Superpuesta.bmp" />
+    <EmbeddedResource Include="Mod_Atencion_Publico\frm_Grafica_Area_Reserva.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_Grafica_Area_Reserva.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod_Atencion_Publico\Tool1_planoventa.cur" />
+    <EmbeddedResource Include="Mod_Atencion_Publico\Tool1_planoventa.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cover_to_Geodatabase\frm_Cover_to_GDB.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_Cover_to_GDB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolBar_DM\tool_Grafica_Area_Reserva.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cover_to_Geodatabase\tool_Cover_to_GDB.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Modulos\frm_CartaIGN_Segun_Codigo.resx">
+      <DependentUpon>frm_CartaIGN_Segun_Codigo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Frm_Eval_segun_codigo.resx">
+      <DependentUpon>Frm_Eval_segun_codigo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolBar_DM\tool_Generar_Malla.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\tool_Plano_Carta.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\tool_Plano_Demarca.bmp" />
+    <EmbeddedResource Include="Modulos\frm_SimularPetitorio.resx">
+      <DependentUpon>frm_SimularPetitorio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\Generar_Layer_Aster.bmp" />
+    <EmbeddedResource Include="Inicio\GEOCATMIN_IniLogin_1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GEOCATMIN_IniLogin_1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte\Frm_Reporte.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frm_Reporte.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btn_Observaciones_Carta.bmp" />
+    <EmbeddedResource Include="Modulos\Frm_observa_CartaIGN.resx">
+      <DependentUpon>Frm_observa_CartaIGN.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btn_Limite_Regional.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\Tool_Porcentaje_Region.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\Tool_Porcentaje_Region.cur" />
+    <EmbeddedResource Include="Modulos\Frm_Resultado_Eval.resx">
+      <DependentUpon>Frm_Resultado_Eval.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod_Atencion_Publico\Frm_formatoplanos.resx">
+      <DependentUpon>Frm_formatoplanos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod_Atencion_Publico\Frm_listadoescalaplanos.resx">
+      <DependentUpon>Frm_listadoescalaplanos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btn_Ver_Antecesor_RD.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btn_Ver_Capas.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btn_Dibujar_Poligono.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btn_Ver_Google.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btn_Borrar_Temas.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btn_Zoom_to_Layer.bmp" />
+    <EmbeddedResource Include="Modulos\Frm_Agregarcapas.resx">
+      <DependentUpon>Frm_Agregarcapas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod_Atencion_Publico\Frm_GraficaPoligono.resx">
+      <DependentUpon>Frm_GraficaPoligono.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod_Atencion_Publico\frm_Generar_Malla_100.resx">
+      <DependentUpon>frm_Generar_Malla_100.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod_Atencion_Publico\frm_Grafica_Consulta_XY.resx">
+      <DependentUpon>frm_Grafica_Consulta_XY.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\area_restringida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btn_BDCoorSupAreaRestringida.bmp" />
+    <EmbeddedResource Include="Modulos\Frm_AreasSuperpuestas.resx">
+      <DependentUpon>Frm_AreasSuperpuestas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\frm_Area_Reserva_BD.resx">
+      <DependentUpon>frm_Area_Reserva_BD.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Frm_datos_Evaluacion.resx">
+      <DependentUpon>Frm_datos_Evaluacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\frm_Zona_Urbana_BD.resx">
+      <DependentUpon>frm_Zona_Urbana_BD.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btn_Cambiar_Usuario.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btn_FA_Valida_Resultado.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btn_FA_AreaSuperpuesta.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btn_FA_AreaReserva.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btn_FA_ZonaUrbana.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btn_FA_CooSupAreaRestringida.bmp" />
+    <EmbeddedResource Include="Modulos\frmCooSupAreaRestringida_BD.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCooSupAreaRestringida_BD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod_Atencion_Publico\frm_Grafica_Consulta_DM.resx">
+      <DependentUpon>frm_Grafica_Consulta_DM.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ver_Area_Superpuesta.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btnNuevoFA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btnGuardaFA.bmp" />
+    <EmbeddedResource Include="Modulos\Form_DatosProcesados.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form_DatosProcesados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Frm_Demarca_Urbana.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frm_Demarca_Urbana.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Frm_DMxAreaRestringida.resx">
+      <DependentUpon>Frm_DMxAreaRestringida.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\frm_Grafica_Excel.resx">
+      <DependentUpon>frm_Grafica_Excel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btn_GeneraPlanoCuadricula.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btn_GraficaExcel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btnDemarcaZonaUrbana.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\Btn_GenerarMallas.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\Tool_Rotula_polygonos.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\Tool_Rotula_polygonos.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\Btn_Generar_Resolucion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btn_demarcacionmultiple.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\btn_RotularTextos.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Botones\Btn_Genera_Situacion_dm.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

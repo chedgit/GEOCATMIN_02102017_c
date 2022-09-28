@@ -1,0 +1,14 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PORTAL_Configuracion.Resources.resources
+obj\Debug\PORTAL_Configuracion.vbproj.GenerateResource.Cache
+obj\Debug\PORTAL_Configuracion.dll
+obj\Debug\PORTAL_Configuracion.xml
+obj\Debug\PORTAL_Configuracion.pdb
+bin\PORTAL_Configuracion.dll
+bin\PORTAL_Configuracion.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\PORTAL_Configuracion.Resources.resources
+obj\Release\PORTAL_Configuracion.vbproj.GenerateResource.Cache
+obj\Release\PORTAL_Configuracion.dll
+obj\Release\PORTAL_Configuracion.xml
+bin\PORTAL_Configuracion.pdb

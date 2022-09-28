@@ -1,0 +1,251 @@
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\ResolveAssemblyReference.cache
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.Frm_Eval_LibreDenu.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.Resources.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.LoginForm.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.frm_DM_x_Carta_0.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.frm_DM_x_Carta_1.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.frm_Grafica_DM_Segun_XY.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.frm_Grafica_DM_Segun_Limite.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.frm_Grafica_Segun_Codigo.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.frm_Grafica_Ubigeo.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.frm_Grafica_DM_Varias_Hojas.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.frm_Grafica_Segun_Nombre.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.rpt_Reporte_1.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.frm_Grafica_Ubigeo_ok.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.GEOCATMIN_IniLogin.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.rpt_Reporte_2.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.frm_Grafica_Area_Reserva.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.frm_Cover_to_GDB.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.frm_CartaIGN_Segun_Codigo.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.Frm_Eval_segun_codigo.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.Frm_simularPetitorio.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.GEOCATMIN_IniLogin_1.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.Frm_Reporte.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.Frm_observa_CartaIGN.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.Frm_Resultado_Eval.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.Frm_formatoplanos.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.Frm_listadoescalaplanos.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.Frm_Agregarcapas.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.Frm_GraficaPoligono.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.frm_Generar_Malla_100.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.frm_Grafica_Consulta_XY.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.Frm_AreasSuperpuestas.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.frm_Area_Reserva_BD.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.Frm_datos_Evaluacion.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.frm_Zona_Urbana_BD.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.frmCooSupAreaRestringida_BD.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.frm_Grafica_Consulta_DM.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.Form_DatosProcesados.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.Frm_Demarca_Urbana.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.Frm_DMxAreaRestringida.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.frm_Grafica_Excel.resources
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.dll.licenses
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.dll
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.xml
+C:\GEOCATMIN_20110810_c - DESA\obj\Debug\GEOCATMIN.pdb
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\GEOCATMIN.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\GEOCATMIN.pdb
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\GEOCATMIN.xml
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\GEOCATMIN.tlb
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.ADF.Local.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.ArcMapUI.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.Carto.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.CartoUI.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.Controls.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.DataSourcesOleDB.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.DataSourcesRaster.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.Display.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.Framework.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.GeoDatabaseUI.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.GISClient.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.System.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.SystemUI.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\Oracle.DataAccess.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\PORTAL_Clases.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\PORTAL_Configuracion.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.GlobeCore.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.3DAnalyst.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.CatalogUI.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.NetworkAnalyst.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.Animation.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.Search.dll
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\PORTAL_Clases.pdb
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\PORTAL_Clases.xml
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\PORTAL_Configuracion.pdb
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\PORTAL_Configuracion.xml
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.ADF.Local.xml
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.ArcMapUI.xml
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.Carto.xml
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.CartoUI.xml
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.Controls.xml
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.DataSourcesOleDB.xml
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.DataSourcesRaster.xml
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.Display.xml
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.Framework.xml
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.GeoDatabaseUI.xml
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.GISClient.xml
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.System.xml
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.SystemUI.xml
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.GlobeCore.xml
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.3DAnalyst.xml
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.CatalogUI.xml
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.NetworkAnalyst.xml
+C:\GEOCATMIN_20110810_c - DESA\bin\Debug\ESRI.ArcGIS.Animation.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\GEOCATMIN.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\GEOCATMIN.pdb
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\GEOCATMIN.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\GEOCATMIN.tlb
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.ADF.Local.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.ArcMapUI.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.Carto.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.CartoUI.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.Controls.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.DataSourcesOleDB.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.DataSourcesRaster.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.Display.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.Framework.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.GeoDatabaseUI.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.GISClient.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.System.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.SystemUI.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\Oracle.DataAccess.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\PORTAL_Clases.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\PORTAL_Configuracion.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.GlobeCore.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.3DAnalyst.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.CatalogUI.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.NetworkAnalyst.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.Animation.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.Search.dll
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\PORTAL_Clases.pdb
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\PORTAL_Clases.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\PORTAL_Configuracion.pdb
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\PORTAL_Configuracion.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.ADF.Local.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.ArcMapUI.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.Carto.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.CartoUI.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.Controls.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.DataSourcesOleDB.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.DataSourcesRaster.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.Display.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.Framework.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.GeoDatabaseUI.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.GISClient.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.System.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.SystemUI.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.GlobeCore.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.3DAnalyst.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.CatalogUI.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.NetworkAnalyst.xml
+C:\GEOCATMIN_20110810_c-prod\bin\Debug\ESRI.ArcGIS.Animation.xml
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\ResolveAssemblyReference.cache
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.Frm_Eval_LibreDenu.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.Resources.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.LoginForm.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.frm_DM_x_Carta_0.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.frm_DM_x_Carta_1.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.frm_Grafica_DM_Segun_XY.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.frm_Grafica_DM_Segun_Limite.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.frm_Grafica_Segun_Codigo.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.frm_Grafica_Ubigeo.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.frm_Grafica_DM_Varias_Hojas.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.frm_Grafica_Segun_Nombre.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.rpt_Reporte_1.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.frm_Grafica_Ubigeo_ok.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.GEOCATMIN_IniLogin.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.rpt_Reporte_2.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.frm_Grafica_Area_Reserva.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.frm_Cover_to_GDB.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.frm_CartaIGN_Segun_Codigo.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.Frm_Eval_segun_codigo.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.Frm_simularPetitorio.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.GEOCATMIN_IniLogin_1.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.Frm_Reporte.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.Frm_observa_CartaIGN.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.Frm_Resultado_Eval.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.Frm_formatoplanos.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.Frm_listadoescalaplanos.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.Frm_Agregarcapas.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.Frm_GraficaPoligono.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.frm_Generar_Malla_100.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.frm_Grafica_Consulta_XY.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.Frm_AreasSuperpuestas.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.frm_Area_Reserva_BD.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.Frm_datos_Evaluacion.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.frm_Zona_Urbana_BD.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.frmCooSupAreaRestringida_BD.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.frm_Grafica_Consulta_DM.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.Form_DatosProcesados.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.Frm_Demarca_Urbana.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.Frm_DMxAreaRestringida.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.frm_Grafica_Excel.resources
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.dll.licenses
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.dll
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.xml
+C:\GEOCATMIN_20110810_c-prod\obj\Debug\GEOCATMIN.pdb
+C:\GEOCATMIN_20110810_c\bin\Debug\GEOCATMIN.dll
+C:\GEOCATMIN_20110810_c\bin\Debug\GEOCATMIN.pdb
+C:\GEOCATMIN_20110810_c\bin\Debug\GEOCATMIN.xml
+C:\GEOCATMIN_20110810_c\bin\Debug\GEOCATMIN.tlb
+C:\GEOCATMIN_20110810_c\bin\Debug\Oracle.DataAccess.dll
+C:\GEOCATMIN_20110810_c\bin\Debug\PORTAL_Clases.dll
+C:\GEOCATMIN_20110810_c\bin\Debug\PORTAL_Configuracion.dll
+C:\GEOCATMIN_20110810_c\bin\Debug\PORTAL_Clases.pdb
+C:\GEOCATMIN_20110810_c\bin\Debug\PORTAL_Clases.xml
+C:\GEOCATMIN_20110810_c\bin\Debug\PORTAL_Configuracion.pdb
+C:\GEOCATMIN_20110810_c\bin\Debug\PORTAL_Configuracion.xml
+C:\GEOCATMIN_20110810_c\obj\Debug\ResolveAssemblyReference.cache
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.frmCalculaARES.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.Frm_DMxAreaNatural.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.Frm_Estadisticas_Caram.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.Frm_Eval_LibreDenu.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.Resources.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.LoginForm.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.frm_DM_x_Carta_0.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.frm_DM_x_Carta_1.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.frm_Grafica_DM_Segun_XY.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.frm_Grafica_DM_Segun_Limite.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.frm_Grafica_Segun_Codigo.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.frm_Grafica_Ubigeo.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.frm_Grafica_DM_Varias_Hojas.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.frm_Grafica_Segun_Nombre.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.rpt_Reporte_1.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.frm_Grafica_Ubigeo_ok.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.GEOCATMIN_IniLogin.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.rpt_Reporte_2.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.frm_Grafica_Area_Reserva.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.frm_Cover_to_GDB.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.frm_CartaIGN_Segun_Codigo.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.Frm_Eval_segun_codigo.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.Frm_simularPetitorio.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.GEOCATMIN_IniLogin_1.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.Frm_Reporte.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.Frm_observa_CartaIGN.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.Frm_Resultado_Eval.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.Frm_formatoplanos.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.Frm_listadoescalaplanos.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.Frm_Agregarcapas.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.Frm_GraficaPoligono.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.frm_Generar_Malla_100.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.frm_Grafica_Consulta_XY.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.Frm_AreasSuperpuestas.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.frm_Area_Reserva_BD.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.Frm_datos_Evaluacion.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.frm_Zona_Urbana_BD.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.frmCooSupAreaRestringida_BD.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.frm_Grafica_Consulta_DM.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.Form_DatosProcesados.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.Frm_Demarca_Urbana.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.Frm_DMxAreaRestringida.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.frm_Grafica_Excel.resources
+C:\GEOCATMIN_20110810_c\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\GEOCATMIN_20110810_c\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.dll.licenses
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.dll
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.xml
+C:\GEOCATMIN_20110810_c\obj\Debug\GEOCATMIN.pdb

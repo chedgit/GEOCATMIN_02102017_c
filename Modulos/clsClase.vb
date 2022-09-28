@@ -1,0 +1,4 @@
+﻿
+Class clsClase
+
+End Class
